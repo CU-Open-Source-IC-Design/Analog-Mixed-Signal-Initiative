@@ -30,7 +30,7 @@ sa=0 sb=0 sd=0
 model=nfet_03v3
 spiceprefix=X
 }
-C {code_shown.sym} 210 -60 0 0 {name=Simulation only_toplevel=false 
+C {code_shown.sym} 210 -20 0 0 {name=Simulation only_toplevel=false 
 
 value=
 
@@ -46,11 +46,13 @@ plot @m.xm1.m0[id]
 .endc
 
 "}
-C {devices/code_shown.sym} 210 -180 0 0 {name=Models only_toplevel=false
+C {devices/code_shown.sym} 210 -190 0 0 {name=Models only_toplevel=false
 format="tcleval( @value )"
 value="
-.include $::180MCU_MODELS/design.ngspice
-.lib $::180MCU_MODELS/sm141064.ngspice typical
+*Can also do models this way
+
+.include /foss/pdks/gf180mcuD/libs.tech/ngspice/design.ngspice
+.lib /foss/pdks/gf180mcuD/libs.tech/ngspice/sm141064.ngspice typical
 "}
 C {vsource.sym} 100 -10 0 0 {name=VDS value= 0 savecurrent=false}
 C {vsource.sym} -120 40 0 1 {name=VGS value= 1.65 savecurrent=false}
