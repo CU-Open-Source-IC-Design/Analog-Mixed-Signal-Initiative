@@ -19,7 +19,7 @@ device=resistor
 m=1}
 C {capa.sym} 110 60 0 0 {name=C1
 m=1
-value=1p
+value=1n
 footprint=1206
 device="ceramic capacitor"}
 C {vsource.sym} -100 60 0 1 {name=V1 value= "0 AC 1" savecurrent=false}
