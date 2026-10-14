@@ -3,7 +3,7 @@
 Welcome to the Open-Source Analog/Mixed-Signal IC Design Project Initiative!
 
 ## 1. Sign Up
-Fill out the [interest form](https://docs.google.com/forms/d/1L0BZ5hh5z5FRWyB81-Y3fOTGS3vJtWyDQU2-4VXwSzE/edit) so we can schedule meetings and add you to announcements.
+Fill out the interest form (find on website or Instagram) so we can schedule meetings and add you to announcements.
 
 ## 2. Set Up Your Tools
 Follow the **[Tool Setup and Workflow guide](Tool_Setup_and_Workflow.pdf)** before Meeting 1. It covers:
