@@ -47,7 +47,7 @@ C {lab_wire.sym} -290 -60 0 0 {name=p2 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} 0 90 2 0 {name=p4 sig_type=std_logic lab=GND}
 C {lab_wire.sym} 0 -180 0 0 {name=p5 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} -100 250 2 0 {name=p6 sig_type=std_logic lab=GND}
-C {vsource.sym} -100 170 0 1 {name=VBIAS value=1 savecurrent=false}
+C {vsource.sym} -100 170 0 1 {name=VBIAS value=1.15 savecurrent=false}
 C {code_shown.sym} 260 20 0 0 {name=Simulation only_toplevel=false 
 
 value=
