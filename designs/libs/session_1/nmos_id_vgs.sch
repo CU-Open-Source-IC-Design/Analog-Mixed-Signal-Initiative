@@ -35,16 +35,11 @@ C {code_shown.sym} 210 -60 0 0 {name=Simulation only_toplevel=false
 value=
 
 "
-
 .control
 save all @m.xm1.m0[id] @m.xm1.m0[gm] @m.xm1.m0[vth]
-
 dc VGS 0 3.3 0.01
-
 plot @m.xm1.m0[id]
-
 plot @m.xm1.m0[gm]
-
 .endc
 
 "}

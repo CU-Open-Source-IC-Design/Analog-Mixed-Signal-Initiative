@@ -35,16 +35,11 @@ C {code_shown.sym} 210 -20 0 0 {name=Simulation only_toplevel=false
 value=
 
 "
-
 .control
 save all @m.xm1.m0[id] @m.xm1.m0[gm] @m.xm1.m0[vth]
-
-dc VDS 0 3.3 0.01
-
+dc VDS 0 1.8 0.01
 plot @m.xm1.m0[id]
-
 .endc
-
 "}
 C {devices/code_shown.sym} 210 -190 0 0 {name=Models only_toplevel=false
 format="tcleval( @value )"
