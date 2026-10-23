@@ -52,14 +52,10 @@ C {code_shown.sym} 260 20 0 0 {name=Simulation only_toplevel=false
 value=
 
 "
-
 .control
-
 dc VIN 0 3.3 0.01
 plot v(VOUT) v(VIN)
-
 .endc
-
 "}
 C {lab_wire.sym} 70 -50 2 0 {name=p7 sig_type=std_logic lab=VOUT}
 C {devices/code_shown.sym} 260 -100 0 0 {name=Models only_toplevel=false
